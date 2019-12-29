@@ -15,16 +15,17 @@ namespace Badge_Helper
         public frmMenu()
         {
             InitializeComponent();
+            button3.Visible = false;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmShowMatches frm = new frmShowMatches();
-            frm.Focus();
-            frm.ShowDialog();
-            this.Show();
-        }
+        //private void button3_Click(object sender, EventArgs e)
+        //{
+        //    this.Hide();
+        //    frmShowMatches frm = new frmShowMatches();
+        //    frm.Focus();
+        //    frm.ShowDialog();
+        //    this.Show();
+        //}
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -44,6 +45,11 @@ namespace Badge_Helper
             frm.Focus();
             frm.ShowDialog();
             this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

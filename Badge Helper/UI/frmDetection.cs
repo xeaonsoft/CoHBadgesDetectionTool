@@ -20,16 +20,16 @@ namespace Badge_Helper
 
         private void frmDetection_Load(object sender, EventArgs e)
         {
-            lblDateTime.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:sss");
+            //lblDateTime.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:sss");
             LoadUI();
         }
         private void LoadUI()
         {
             txtFolder.Text = DetectConfig.Instance.FolderPath;
-            LoadAccountLog();
+            LoadAccountsListing();
         }
 
-        private void LoadAccountLog()
+        private void LoadAccountsListing()
         {
             listBox1.Items.Clear();
             string rootPath = DetectConfig.Instance.FolderPath;
@@ -49,14 +49,22 @@ namespace Badge_Helper
                 string rightPart = found.Replace(rootPath, string.Empty);
                 string[] parts = rightPart.Split('\\');
 
-                //parts.ToList().Where(a => !string.IsNullOrEmpty(a)).First()
-                LogFileItem lfi = new LogFileItem { File = found };
-                lfi.PlayerName = parts.ToList().Where(a => !string.IsNullOrEmpty(a)).First();
-                listBox1.Items.Add(lfi.PlayerName);
 
+                LogFileItem lfi = new LogFileItem { File = found };
+                lfi.GlobalName = parts.ToList().Where(a => !string.IsNullOrEmpty(a)).First();
+                lfi.FetchData();
+
+                if (string.IsNullOrEmpty(lfi.LocalName))
+                    continue;
+
+                listBox1.Items.Add(lfi.CombinedName);
 
                 LogFileItem.List.Add(lfi);
             }
+
+
+            if (listBox1.Items.Count > 0)
+                listBox1.SetSelected(0, true);
         }
 
         private void bBrowse_Click(object sender, EventArgs e)
@@ -71,7 +79,7 @@ namespace Badge_Helper
             LoadUI();
         }
 
-        
+
 
         private void bDetect_Click(object sender, EventArgs e)
         {
@@ -89,7 +97,7 @@ namespace Badge_Helper
                 return;
             }
 
-            var lfi = LogFileItem.List.Single(a => a.PlayerName == selection);
+            LogFileItem lfi = LogFileItem.List.Single(a => a.CombinedName == selection);
 
 
             if (lfi == null)
@@ -105,22 +113,16 @@ namespace Badge_Helper
             {
                 string content = sr.ReadToEnd();
 
-                ProcessContent(content);
-                //txtTestContent.Text = content;
+                ProcessContent(content, lfi);
+                
             }
         }
 
-        private void ProcessContent(string content)
+        private void ProcessContent(string content, LogFileItem lfi)
         {
-            if (string.IsNullOrEmpty(lblDateTime.Text))
-                return;
-
-
-            BadgeManager.Load();
-            DateTime startDateTime = DateTime.Parse(lblDateTime.Text);
-
-
-
+            
+            BadgeManager.Load(lfi);
+            DateTime startDateTime = lfi.StartDate;
 
             string[] lines = content.Split('\r');
 
@@ -136,7 +138,6 @@ namespace Badge_Helper
                 {
                     string line = badgeEntry.Substring(20, badgeEntry.Length - 20);
                     line = line.Replace(BadgeLine, string.Empty);
-                    //sb.AppendLine(line);
 
                     BadgeItem b = new BadgeItem { Name = line, Selected = true };
                     BadgeManager.Add(b);
@@ -147,9 +148,61 @@ namespace Badge_Helper
 
             BadgeManager.Save();
 
-            MessageBox.Show("Chat log file detection completed! -- go back to use the 'Badges Matches' button from the main menu!");
+            MessageBox.Show("Chat log file detection completed!");
 
-            LoadUI();
+
+            //LoadUI();
+
+            LoadMatches();
+        }
+
+        private void bShowMatches_Click(object sender, EventArgs e)
+        {
+            LoadMatches();
+        }
+
+
+        private void LoadMatches()
+        {
+            string selection = $"{listBox1.SelectedItem}";
+            if (string.IsNullOrEmpty(selection))
+            {
+                MessageBox.Show("No Selection!");
+                return;
+            }
+
+            LogFileItem lfi = LogFileItem.List.Single(a => a.CombinedName == selection);
+
+
+            if (lfi == null)
+            {
+                MessageBox.Show("lfi is null"); ;
+                return;
+
+            }
+
+
+            this.Hide();
+            frmShowMatches frm = new frmShowMatches(lfi);
+
+            frm.Focus();
+            frm.ShowDialog();
+            this.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            frmHelpCoHFolder frm = new frmHelpCoHFolder();
+
+            frm.Focus();
+            frm.ShowDialog();
+            //this.Show();
+        }
+
+        private void bClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

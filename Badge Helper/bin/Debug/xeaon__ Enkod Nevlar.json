@@ -1,0 +1,886 @@
+[
+  {
+    "Name": "Fixer",
+    "Selected": true
+  },
+  {
+    "Name": "Bling",
+    "Selected": true
+  },
+  {
+    "Name": "Mr. Big",
+    "Selected": true
+  },
+  {
+    "Name": "Midas Touch",
+    "Selected": true
+  },
+  {
+    "Name": "Stoic",
+    "Selected": true
+  },
+  {
+    "Name": "Hard Case",
+    "Selected": true
+  },
+  {
+    "Name": "Comrade",
+    "Selected": true
+  },
+  {
+    "Name": "Drill Instructor",
+    "Selected": true
+  },
+  {
+    "Name": "Svengali",
+    "Selected": true
+  },
+  {
+    "Name": "Punch Drunk",
+    "Selected": true
+  },
+  {
+    "Name": "Unbroken",
+    "Selected": true
+  },
+  {
+    "Name": "The Unbroken Spirit",
+    "Selected": true
+  },
+  {
+    "Name": "Slacker",
+    "Selected": true
+  },
+  {
+    "Name": "Soldier",
+    "Selected": true
+  },
+  {
+    "Name": "Insider",
+    "Selected": true
+  },
+  {
+    "Name": "Wiseguy",
+    "Selected": true
+  },
+  {
+    "Name": "Captain",
+    "Selected": true
+  },
+  {
+    "Name": "Made",
+    "Selected": true
+  },
+  {
+    "Name": "Visitor",
+    "Selected": true
+  },
+  {
+    "Name": "Native",
+    "Selected": true
+  },
+  {
+    "Name": "Obsessed",
+    "Selected": true
+  },
+  {
+    "Name": "Pathfinder",
+    "Selected": true
+  },
+  {
+    "Name": "Gearsmasher",
+    "Selected": true
+  },
+  {
+    "Name": "The Silver Bullet",
+    "Selected": true
+  },
+  {
+    "Name": "The Slayer",
+    "Selected": true
+  },
+  {
+    "Name": "Soul Binder",
+    "Selected": true
+  },
+  {
+    "Name": "Tank Buster",
+    "Selected": true
+  },
+  {
+    "Name": "Master of Olympus",
+    "Selected": true
+  },
+  {
+    "Name": "Positron's Betrayer",
+    "Selected": true
+  },
+  {
+    "Name": "Citadel's Betrayer",
+    "Selected": true
+  },
+  {
+    "Name": "Manticore's Betrayer",
+    "Selected": true
+  },
+  {
+    "Name": "Destroyer of Earth",
+    "Selected": true
+  },
+  {
+    "Name": "Shady",
+    "Selected": true
+  },
+  {
+    "Name": "Destined One",
+    "Selected": true
+  },
+  {
+    "Name": "Burkholder's Bane",
+    "Selected": true
+  },
+  {
+    "Name": "Passport",
+    "Selected": true
+  },
+  {
+    "Name": "Deathless",
+    "Selected": true
+  },
+  {
+    "Name": "Undying",
+    "Selected": true
+  },
+  {
+    "Name": "Exalted",
+    "Selected": true
+  },
+  {
+    "Name": "Trendsetter",
+    "Selected": true
+  },
+  {
+    "Name": "Role Model",
+    "Selected": true
+  },
+  {
+    "Name": "Epitome",
+    "Selected": true
+  },
+  {
+    "Name": "Pirate",
+    "Selected": true
+  },
+  {
+    "Name": "The Next Big Thing",
+    "Selected": true
+  },
+  {
+    "Name": "Widower",
+    "Selected": true
+  },
+  {
+    "Name": "Media Junky",
+    "Selected": true
+  },
+  {
+    "Name": "Steamed",
+    "Selected": true
+  },
+  {
+    "Name": "Locked and Loaded",
+    "Selected": true
+  },
+  {
+    "Name": "Primal Instinct",
+    "Selected": true
+  },
+  {
+    "Name": "Overlord",
+    "Selected": true
+  },
+  {
+    "Name": "Weapon of Mass Destruction",
+    "Selected": true
+  },
+  {
+    "Name": "Triumphant",
+    "Selected": true
+  },
+  {
+    "Name": "Forged by Hellfire",
+    "Selected": true
+  },
+  {
+    "Name": "Freak of Nature",
+    "Selected": true
+  },
+  {
+    "Name": "Strike Buster",
+    "Selected": true
+  },
+  {
+    "Name": "Hammer Down",
+    "Selected": true
+  },
+  {
+    "Name": "Annihilator",
+    "Selected": true
+  },
+  {
+    "Name": "Coldhearted",
+    "Selected": true
+  },
+  {
+    "Name": "Gangbuster",
+    "Selected": true
+  },
+  {
+    "Name": "Villain",
+    "Selected": true
+  },
+  {
+    "Name": "The Mongoose",
+    "Selected": true
+  },
+  {
+    "Name": "Spider Smasher",
+    "Selected": true
+  },
+  {
+    "Name": "Swashbuckler",
+    "Selected": true
+  },
+  {
+    "Name": "Arachnos Rising",
+    "Selected": true
+  },
+  {
+    "Name": "Lorekeeper",
+    "Selected": true
+  },
+  {
+    "Name": "Technofreak",
+    "Selected": true
+  },
+  {
+    "Name": "Servant of Recluse",
+    "Selected": true
+  },
+  {
+    "Name": "Paragon of Vice",
+    "Selected": true
+  },
+  {
+    "Name": "Soul Taker",
+    "Selected": true
+  },
+  {
+    "Name": "Bad Luck",
+    "Selected": true
+  },
+  {
+    "Name": "Exterminator",
+    "Selected": true
+  },
+  {
+    "Name": "Trailblazer",
+    "Selected": true
+  },
+  {
+    "Name": "Alien Fighter",
+    "Selected": true
+  },
+  {
+    "Name": "Wolf Spider Enforcer",
+    "Selected": true
+  },
+  {
+    "Name": "Wolf Spider Tac Ops",
+    "Selected": true
+  },
+  {
+    "Name": "Night Widow",
+    "Selected": true
+  },
+  {
+    "Name": "Crab Spider Longfang",
+    "Selected": true
+  },
+  {
+    "Name": "Night Haunt",
+    "Selected": true
+  },
+  {
+    "Name": "Longbow Rifleman",
+    "Selected": true
+  },
+  {
+    "Name": "Hordeling Lasher",
+    "Selected": true
+  },
+  {
+    "Name": "Hellfrost",
+    "Selected": true
+  },
+  {
+    "Name": "Ember Legacy of Flame",
+    "Selected": true
+  },
+  {
+    "Name": "Kaolin Legacy of Earth",
+    "Selected": true
+  },
+  {
+    "Name": "Longbow Spec-Ops",
+    "Selected": true
+  },
+  {
+    "Name": "Ink Man",
+    "Selected": true
+  },
+  {
+    "Name": "Cog",
+    "Selected": true
+  },
+  {
+    "Name": "Boulder",
+    "Selected": true
+  },
+  {
+    "Name": "Tank Smasher",
+    "Selected": true
+  },
+  {
+    "Name": "Zenith Warcry Mk I",
+    "Selected": true
+  },
+  {
+    "Name": "Crey Power Tank",
+    "Selected": true
+  },
+  {
+    "Name": "Omega Wolf",
+    "Selected": true
+  },
+  {
+    "Name": "Hammerhead",
+    "Selected": true
+  },
+  {
+    "Name": "Binder of Beasts",
+    "Selected": true
+  },
+  {
+    "Name": "Air Pirate",
+    "Selected": true
+  },
+  {
+    "Name": "Leviathan",
+    "Selected": true
+  },
+  {
+    "Name": "Crystal Keeper",
+    "Selected": true
+  },
+  {
+    "Name": "Marshal",
+    "Selected": true
+  },
+  {
+    "Name": "High Pain Threshold",
+    "Selected": true
+  },
+  {
+    "Name": "Demonic",
+    "Selected": true
+  },
+  {
+    "Name": "Hero Slayer",
+    "Selected": true
+  },
+  {
+    "Name": "Invader",
+    "Selected": true
+  },
+  {
+    "Name": "Global Threat",
+    "Selected": true
+  },
+  {
+    "Name": "King Maker",
+    "Selected": true
+  },
+  {
+    "Name": "Road Raged",
+    "Selected": true
+  },
+  {
+    "Name": "Steel Worker",
+    "Selected": true
+  },
+  {
+    "Name": "Tyrannical",
+    "Selected": true
+  },
+  {
+    "Name": "Talon of Talos",
+    "Selected": true
+  },
+  {
+    "Name": "Brickhouse",
+    "Selected": true
+  },
+  {
+    "Name": "Anarchist",
+    "Selected": true
+  },
+  {
+    "Name": "Gate Crasher",
+    "Selected": true
+  },
+  {
+    "Name": "Archvillain",
+    "Selected": true
+  },
+  {
+    "Name": "5th Columnist",
+    "Selected": true
+  },
+  {
+    "Name": "The Stinger",
+    "Selected": true
+  },
+  {
+    "Name": "Pocket D VIP Gold Club Member",
+    "Selected": true
+  },
+  {
+    "Name": "Overleveled",
+    "Selected": true
+  },
+  {
+    "Name": "Faithful",
+    "Selected": true
+  },
+  {
+    "Name": "Dependable",
+    "Selected": true
+  },
+  {
+    "Name": "Loyal",
+    "Selected": true
+  },
+  {
+    "Name": "Zealous",
+    "Selected": true
+  },
+  {
+    "Name": "Staunch",
+    "Selected": true
+  },
+  {
+    "Name": "Elusive",
+    "Selected": true
+  },
+  {
+    "Name": "Saved the World... for Later",
+    "Selected": true
+  },
+  {
+    "Name": "Recluse's Rival",
+    "Selected": true
+  },
+  {
+    "Name": "Breathes Easy",
+    "Selected": true
+  },
+  {
+    "Name": "Vanguard Operative",
+    "Selected": true
+  },
+  {
+    "Name": "Broker",
+    "Selected": true
+  },
+  {
+    "Name": "Scrounger",
+    "Selected": true
+  },
+  {
+    "Name": "Enhancer",
+    "Selected": true
+  },
+  {
+    "Name": "Vendor",
+    "Selected": true
+  },
+  {
+    "Name": "Salesman",
+    "Selected": true
+  },
+  {
+    "Name": "Tradesman",
+    "Selected": true
+  },
+  {
+    "Name": "Merchant",
+    "Selected": true
+  },
+  {
+    "Name": "Member of Vanguard",
+    "Selected": true
+  },
+  {
+    "Name": "Apocalyptic",
+    "Selected": true
+  },
+  {
+    "Name": "Entrusted with the Secret",
+    "Selected": true
+  },
+  {
+    "Name": "Chrononaut",
+    "Selected": true
+  },
+  {
+    "Name": "Midnight Squad",
+    "Selected": true
+  },
+  {
+    "Name": "Depths of Time",
+    "Selected": true
+  },
+  {
+    "Name": "Temporal Strife",
+    "Selected": true
+  },
+  {
+    "Name": "Centurion",
+    "Selected": true
+  },
+  {
+    "Name": "Roman",
+    "Selected": true
+  },
+  {
+    "Name": "Criminal",
+    "Selected": true
+  },
+  {
+    "Name": "Vanguard Recruit",
+    "Selected": true
+  },
+  {
+    "Name": "Pilot",
+    "Selected": true
+  },
+  {
+    "Name": "Mercenary",
+    "Selected": true
+  },
+  {
+    "Name": "Author",
+    "Selected": true
+  },
+  {
+    "Name": "Early Bird",
+    "Selected": true
+  },
+  {
+    "Name": "Customizer",
+    "Selected": true
+  },
+  {
+    "Name": "Column Breaker",
+    "Selected": true
+  },
+  {
+    "Name": "Alpha Unlocked",
+    "Selected": true
+  },
+  {
+    "Name": "Interface Unlocked",
+    "Selected": true
+  },
+  {
+    "Name": "Lore Unlocked",
+    "Selected": true
+  },
+  {
+    "Name": "Destiny Unlocked",
+    "Selected": true
+  },
+  {
+    "Name": "Hybrid Unlocked",
+    "Selected": true
+  },
+  {
+    "Name": "Tipped Off",
+    "Selected": true
+  },
+  {
+    "Name": "Made a Stand",
+    "Selected": true
+  },
+  {
+    "Name": "Initiate",
+    "Selected": true
+  },
+  {
+    "Name": "Empowered",
+    "Selected": true
+  },
+  {
+    "Name": "Scoundrel",
+    "Selected": true
+  },
+  {
+    "Name": "Trickster",
+    "Selected": true
+  },
+  {
+    "Name": "Grass Is Greener",
+    "Selected": true
+  },
+  {
+    "Name": "Technophobe",
+    "Selected": true
+  },
+  {
+    "Name": "Judgement Unlocked",
+    "Selected": true
+  },
+  {
+    "Name": "Controversial",
+    "Selected": true
+  },
+  {
+    "Name": "Last Line of Defense",
+    "Selected": true
+  },
+  {
+    "Name": "Rule of Three",
+    "Selected": true
+  },
+  {
+    "Name": "Dam Villain",
+    "Selected": true
+  },
+  {
+    "Name": "Drone Protector",
+    "Selected": true
+  },
+  {
+    "Name": "Arm's Length",
+    "Selected": true
+  },
+  {
+    "Name": "Hacker",
+    "Selected": true
+  },
+  {
+    "Name": "Midnight Dodger What Dodges At Midnight",
+    "Selected": true
+  },
+  {
+    "Name": "Already Dead",
+    "Selected": true
+  },
+  {
+    "Name": "Kitty's Got Claws",
+    "Selected": true
+  },
+  {
+    "Name": "Weapon Master",
+    "Selected": true
+  },
+  {
+    "Name": "Alpha Struck",
+    "Selected": true
+  },
+  {
+    "Name": "Master of Apex's Task Force",
+    "Selected": true
+  },
+  {
+    "Name": "Well Drinker",
+    "Selected": true
+  },
+  {
+    "Name": "Incarnate",
+    "Selected": true
+  },
+  {
+    "Name": "Accomplice",
+    "Selected": true
+  },
+  {
+    "Name": "Land, Sea & Air",
+    "Selected": true
+  },
+  {
+    "Name": "Lambda Leader",
+    "Selected": true
+  },
+  {
+    "Name": "Keyes Technician",
+    "Selected": true
+  },
+  {
+    "Name": "Underground Seeker",
+    "Selected": true
+  },
+  {
+    "Name": "Regenerate This",
+    "Selected": true
+  },
+  {
+    "Name": "Tour Guide",
+    "Selected": true
+  },
+  {
+    "Name": "Hydra Stomper",
+    "Selected": true
+  },
+  {
+    "Name": "The Cleanser",
+    "Selected": true
+  },
+  {
+    "Name": "Chipped Talon",
+    "Selected": true
+  },
+  {
+    "Name": "Spin Doctor",
+    "Selected": true
+  },
+  {
+    "Name": "News Flash",
+    "Selected": true
+  },
+  {
+    "Name": "Fair & Balanced",
+    "Selected": true
+  },
+  {
+    "Name": "Television Addict",
+    "Selected": true
+  },
+  {
+    "Name": "Tonight's Top Story",
+    "Selected": true
+  },
+  {
+    "Name": "Master of TPN Campus",
+    "Selected": true
+  },
+  {
+    "Name": "Mental Voyager",
+    "Selected": true
+  },
+  {
+    "Name": "A Perfect Storm",
+    "Selected": true
+  },
+  {
+    "Name": "Daylight Saver",
+    "Selected": true
+  },
+  {
+    "Name": "Lost Connection to Server",
+    "Selected": true
+  },
+  {
+    "Name": "Gift Getter",
+    "Selected": true
+  },
+  {
+    "Name": "Death Denied",
+    "Selected": true
+  },
+  {
+    "Name": "Spinebreaker",
+    "Selected": true
+  },
+  {
+    "Name": "Sentinel Smasher",
+    "Selected": true
+  },
+  {
+    "Name": "Sacrificial Lamb",
+    "Selected": true
+  },
+  {
+    "Name": "Life and Death",
+    "Selected": true
+  },
+  {
+    "Name": "Master of Dilemma Diabolique",
+    "Selected": true
+  },
+  {
+    "Name": "Apostate",
+    "Selected": true
+  },
+  {
+    "Name": "Erasure",
+    "Selected": true
+  },
+  {
+    "Name": "Silencer",
+    "Selected": true
+  },
+  {
+    "Name": "Eye of Vengeance",
+    "Selected": true
+  },
+  {
+    "Name": "The Determined Mentor",
+    "Selected": true
+  },
+  {
+    "Name": "Watches the Watchers",
+    "Selected": true
+  },
+  {
+    "Name": "Sorcerer's Apprentice",
+    "Selected": true
+  },
+  {
+    "Name": "Enemy of the State",
+    "Selected": true
+  },
+  {
+    "Name": "Shadow Master",
+    "Selected": true
+  },
+  {
+    "Name": "House Hunter",
+    "Selected": true
+  },
+  {
+    "Name": "Marauder",
+    "Selected": true
+  },
+  {
+    "Name": "Eliminator",
+    "Selected": true
+  },
+  {
+    "Name": "Relentless",
+    "Selected": true
+  },
+  {
+    "Name": "Bounty",
+    "Selected": true
+  },
+  {
+    "Name": "Loyal Customer",
+    "Selected": true
+  },
+  {
+    "Name": "Valet",
+    "Selected": true
+  }
+]

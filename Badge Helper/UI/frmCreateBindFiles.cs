@@ -18,7 +18,7 @@ namespace Badge_Helper
             InitializeComponent();
             lblProcessing.Visible = false;
             lblDone.Visible = false;
-            lblDone2.Visible = false;
+            
         }
         private void frmCreateBindFiles_Load(object sender, EventArgs e)
         {
@@ -58,7 +58,7 @@ namespace Badge_Helper
 
 
 
-            textBox2.Text = $"/bind_Load_file \"{Path.Combine(bindPath, $"bind0.txt")}\""; ;
+            txtBind0.Text = $"/bind_Load_file \"{Path.Combine(bindPath, $"bind0.txt")}\""; ;
 
             int fileCpt = 0;
 
@@ -86,7 +86,7 @@ namespace Badge_Helper
             button1.Visible = true;
             lblProcessing.Visible = false;
             lblDone.Visible = true;
-            lblDone2.Visible = true;
+            
             this.Refresh();
         }
 
@@ -106,12 +106,24 @@ namespace Badge_Helper
 
         private void LoadUI()
         {
+            
             txtFolder.Text = BindFileConfig.Instance.FolderPath;
+
+            if (!string.IsNullOrEmpty(txtFolder.Text))
+            {
+                string bindPath = txtFolder.Text.Trim();
+                txtBind0.Text = $"/bind_Load_file \"{Path.Combine(bindPath, $"bind0.txt")}\""; ;
+            }
         }
 
         private void txtFolder_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

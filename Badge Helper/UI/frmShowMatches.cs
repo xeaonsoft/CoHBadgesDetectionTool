@@ -13,8 +13,10 @@ namespace Badge_Helper
 {
     public partial class frmShowMatches : Form
     {
-        public frmShowMatches()
+        private LogFileItem _lfi;
+        public frmShowMatches(LogFileItem lfi)
         {
+            _lfi = lfi;
             InitializeComponent();
         }
 
@@ -23,10 +25,10 @@ namespace Badge_Helper
             LoadUI();
         }
 
-
+        
         public void LoadUI()
         {
-            BadgeManager.Load();
+            BadgeManager.Load(_lfi);
 
             List<RawDataItem> rdiList = BadgeRawData.Read();
 
@@ -47,6 +49,11 @@ namespace Badge_Helper
             int count = BadgeManager.List.Count(a => a.Selected);
             lblTotalBadgeCount.Text = $"Total Badges:{count}";
 
+        }
+
+        private void bClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         //private void Verif(List<RawDataItem> rdiList)

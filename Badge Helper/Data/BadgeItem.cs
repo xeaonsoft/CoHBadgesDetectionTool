@@ -31,7 +31,7 @@ namespace Badge_Helper
     {
         public static List<BadgeItem> List = new List<BadgeItem>();
 
-
+        private static string _fileName;
 
         public static void Add(BadgeItem b)
         {
@@ -40,12 +40,12 @@ namespace Badge_Helper
                 BadgeManager.List.Add(b);
         }
 
-        public static void Load()
+        public static void Load(LogFileItem lfi)
         {
-            string saveFile = GetFileName();
-            if (File.Exists(saveFile))
+            _fileName = GetFileName(lfi);
+            if (File.Exists(_fileName))
             {
-                string jsonContent = File.ReadAllText(saveFile);
+                string jsonContent = File.ReadAllText(_fileName);
                 BadgeManager.List = JsonConvert.DeserializeObject<List<BadgeItem>>(jsonContent);
             }
             else
@@ -59,9 +59,9 @@ namespace Badge_Helper
         public static void Save()
         {
             PurgeIgnored();
-            string saveFile = GetFileName();
+            
             string jsonContent = JsonConvert.SerializeObject(BadgeManager.List, Formatting.Indented);
-            File.WriteAllText(saveFile, jsonContent);
+            File.WriteAllText(_fileName, jsonContent);
         }
 
         private static void PurgeIgnored()
@@ -74,10 +74,11 @@ namespace Badge_Helper
             //DetectConfig
         }
 
-        private static string GetFileName()
+        private static string GetFileName(LogFileItem lfi)
         {
-            string directoryName = IOHelper.RootPath; //new FileInfo(Assembly.GetExecutingAssembly().Location).DirectoryName;
-            return Path.Combine(directoryName, "SaveFile.json");
+            string fileName = $"{lfi.GlobalName}__{lfi.LocalName}.json";
+            string directoryName = IOHelper.RootPath;
+            return Path.Combine(directoryName, fileName);
         }
 
 
