@@ -1,0 +1,48 @@
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\Badge Helper.exe.config
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\Badge Helper.exe
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\Badge Helper.pdb
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge Helper.csprojAssemblyReference.cache
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.Properties.Resources.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge Helper.csproj.GenerateResource.cache
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge Helper.exe
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge Helper.pdb
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.MyTabPage.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\Newtonsoft.Json.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\Newtonsoft.Json.xml
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge Helper.csproj.CopyComplete
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.frmMenu.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\RawData.xlsx
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.frmShowMatches.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\NPOI.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\NPOI.OOXML.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\NPOI.OpenXml4Net.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.frmCreateBindFiles.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.frmDetection.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\Badge Helper\Badge Helper\obj\Debug\Badge_Helper.zzForm1.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\RawData.xlsx
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\Badge Helper.exe.config
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\Badge Helper.exe
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\Badge Helper.pdb
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\Newtonsoft.Json.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\NPOI.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\NPOI.OOXML.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\NPOI.OpenXml4Net.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\Newtonsoft.Json.xml
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.csprojAssemblyReference.cache
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.zzForm1.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmCreateBindFiles.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmDetection.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmMenu.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmShowMatches.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.MyTabPage.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.Properties.Resources.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.csproj.GenerateResource.cache
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.csproj.CopyComplete
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.exe
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.pdb
