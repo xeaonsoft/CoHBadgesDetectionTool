@@ -10,5 +10,7 @@ namespace Badge_Helper
     {
         public string Name { get; set; }
         public List<RawBadgeItem> Badges = new List<RawBadgeItem>();
+
+        
     }
 }

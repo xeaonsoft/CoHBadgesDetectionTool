@@ -63,7 +63,7 @@ namespace Badge_Helper
             }
             this.listBox1.Refresh();
 
-            
+
 
             var total = dataList.Count();
             var selectedCount = dataList.Count(a => a.Selected);
@@ -143,6 +143,8 @@ namespace Badge_Helper
             e.Graphics.DrawString(bi.Name, e.Font, Brushes.Black, e.Bounds.Left, e.Bounds.Top);
 
             e.Graphics.DrawString(bi.Group, e.Font, Brushes.Black, e.Bounds.Left + 500, e.Bounds.Top);
+
+            e.Graphics.DrawString($"{bi.SetTitleID}", e.Font, Brushes.Black, e.Bounds.Left + 800, e.Bounds.Top);
 
 
         }

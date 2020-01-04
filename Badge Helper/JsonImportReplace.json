@@ -1,0 +1,24 @@
+[
+  {
+    "Key": "ALIGNMENT_ANY",
+    "Text": "ALIGNMENT_ANY"
+  },
+  {
+    "Key": "ALIGNMENT_HERO",
+    "Text": "ALIGNMENT_HERO"
+  },
+  {
+    "Key": "ALIGNMENT_VILLAIN",
+    "Text": "ALIGNMENT_VILLAIN"
+  },
+  {
+    "Key": "ALIGNMENT_PRAETORIAN",
+    "Text": "ALIGNMENT_PRAETORIAN"
+  },
+  {
+    "Key": "SAFEGUARD_MAYHEM_CONTACT",
+    "Text": "SAFEGUARD_MAYHEM_CONTACT"
+  }
+
+
+]

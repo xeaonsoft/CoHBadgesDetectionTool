@@ -64,10 +64,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="coh-content-db-homecoming\Enums.cs" />
+    <Compile Include="coh-content-db-homecoming\FileKeys.cs" />
+    <Compile Include="coh-content-db-homecoming\ImportManager.cs" />
+    <Compile Include="coh-content-db-homecoming\StripHelper.cs" />
     <Compile Include="Data\DetectConfig.cs" />
     <Compile Include="Data\BadgeItem.cs" />
     <Compile Include="Data\BadgeRawData.cs" />
     <Compile Include="Data\BindFileConfig.cs" />
+    <Compile Include="coh-content-db-homecoming\JsonImportReplace.cs" />
+    <Compile Include="coh-content-db-homecoming\ImportData.cs" />
     <Compile Include="Misc\IOHelper.cs" />
     <Compile Include="Data\RawDataItem.cs" />
     <Compile Include="UI\frmCreateBindFiles.cs">
@@ -134,6 +140,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="JsonImportReplace.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -34,7 +34,6 @@ C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\NPO
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\NPOI.OpenXmlFormats.dll
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\ICSharpCode.SharpZipLib.xml
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\Newtonsoft.Json.xml
-C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.csprojAssemblyReference.cache
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmCreateBindFiles.resources
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmDetection.resources
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmMenu.resources
@@ -46,3 +45,4 @@ C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Bad
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.exe
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.pdb
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmHelpCoHFolder.resources
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\JsonImportReplace.json

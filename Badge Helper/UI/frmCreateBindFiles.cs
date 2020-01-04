@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Badge_Helper
 {
@@ -18,7 +20,7 @@ namespace Badge_Helper
             InitializeComponent();
             lblProcessing.Visible = false;
             lblDone.Visible = false;
-            
+
         }
         private void frmCreateBindFiles_Load(object sender, EventArgs e)
         {
@@ -43,7 +45,11 @@ namespace Badge_Helper
             lblProcessing.Visible = true;
             this.Refresh();
 
-            string bindPath = txtFolder.Text.Trim();
+
+            this.SaveUI();
+            this.LoadUI();
+
+            string bindPath = BindFileConfig.Instance.FolderPath.Trim();
             if (string.IsNullOrEmpty(bindPath))
             {
                 MessageBox.Show("Path is empty");
@@ -57,25 +63,28 @@ namespace Badge_Helper
             DeleteFiles(bindPath);
 
 
+            int maxValue = BindFileConfig.Instance.MaxValue;
+            string bindText = BindFileConfig.Instance.BindText;
+
 
             txtBind0.Text = $"/bind_Load_file \"{Path.Combine(bindPath, $"bind0.txt")}\""; ;
 
             int fileCpt = 0;
 
-            const int loopMax = 12;
+            int itemsPerFiles = BindFileConfig.Instance.ItemsPerFile;
 
-            for (int i = 0; i < 2400; i += loopMax)
+            for (int i = 0; i < maxValue; i += itemsPerFiles)
             {
                 string currentFilePath = Path.Combine(bindPath, $"bind{fileCpt}.txt");
                 string newFilePath = Path.Combine(bindPath, $"bind{fileCpt + 1}.txt");
 
                 string iterString = string.Empty;
-                for (int j = 0; j < loopMax; j++)
+                for (int j = 0; j < itemsPerFiles; j++)
                 {
                     iterString += $"set_title {i + j}$$";
                 }
 
-                string content = $"ctrl+m \"{iterString}bind_Load_file {newFilePath}\"";
+                string content = $"{bindText} \"{iterString}bind_Load_file {newFilePath}\"";
 
                 File.WriteAllText(currentFilePath, content);
                 fileCpt++;
@@ -86,7 +95,8 @@ namespace Badge_Helper
             button1.Visible = true;
             lblProcessing.Visible = false;
             lblDone.Visible = true;
-            
+
+            this.LoadUI();
             this.Refresh();
         }
 
@@ -106,8 +116,11 @@ namespace Badge_Helper
 
         private void LoadUI()
         {
-            
+
             txtFolder.Text = BindFileConfig.Instance.FolderPath;
+            txtBind.Text = BindFileConfig.Instance.BindText;
+            txtMaxValue.Text = $"{BindFileConfig.Instance.MaxValue}";
+            txtItemsPerFile.Text = $"{BindFileConfig.Instance.ItemsPerFile}";
 
             if (!string.IsNullOrEmpty(txtFolder.Text))
             {
@@ -115,7 +128,17 @@ namespace Badge_Helper
                 txtBind0.Text = $"/bind_Load_file \"{Path.Combine(bindPath, $"bind0.txt")}\""; ;
             }
         }
+        private void SaveUI()
+        {
+            BindFileConfig.Instance.FolderPath = txtFolder.Text;
+            BindFileConfig.Instance.BindText = txtBind.Text;
+            BindFileConfig.Instance.MaxValue = BindFileConfig.TryParseInt(txtMaxValue.Text);
+            BindFileConfig.Instance.ItemsPerFile = BindFileConfig.TryParseInt(txtItemsPerFile.Text);
 
+     
+
+            BindFileConfig.Instance.Validate();
+        }
         private void txtFolder_TextChanged(object sender, EventArgs e)
         {
 
@@ -125,5 +148,10 @@ namespace Badge_Helper
         {
             this.Close();
         }
+
+
+
+
+
     }
 }

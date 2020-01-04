@@ -13,7 +13,7 @@ namespace Badge_Helper
     {
 
 
-
+        public int SetTitleID { get; set; }
         public string Group { get; set; }
         public string Name { get; set; }
         public bool Selected { get; set; }
@@ -59,7 +59,7 @@ namespace Badge_Helper
         public static void Save()
         {
             PurgeIgnored();
-            
+
             string jsonContent = JsonConvert.SerializeObject(BadgeManager.List, Formatting.Indented);
             File.WriteAllText(_fileName, jsonContent);
         }
