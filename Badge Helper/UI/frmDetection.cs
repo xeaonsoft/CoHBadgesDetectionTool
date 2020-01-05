@@ -87,6 +87,7 @@ namespace Badge_Helper
         }
 
         const string BadgeLine = "has been selected as new title.";
+        const string BadgeLine2 = "Congratulations! You earned the ";
 
         private void ReadChatLogFile()
         {
@@ -114,20 +115,20 @@ namespace Badge_Helper
                 string content = sr.ReadToEnd();
 
                 ProcessContent(content, lfi);
-                
+
             }
         }
 
         private void ProcessContent(string content, LogFileItem lfi)
         {
-            
+
             BadgeManager.Load(lfi);
             DateTime startDateTime = lfi.StartDate;
 
             string[] lines = content.Split('\r');
 
 
-            var badgesEntries = lines.Where(a => a.EndsWith(BadgeLine));
+            var badgesEntries = lines.Where(a => a.EndsWith(BadgeLine) || a.Contains(BadgeLine2));
 
             foreach (string badgeEntry in badgesEntries)
             {
@@ -137,10 +138,18 @@ namespace Badge_Helper
                 if (lineDate > startDateTime)
                 {
                     string line = badgeEntry.Substring(20, badgeEntry.Length - 20);
-                    line = line.Replace(BadgeLine, string.Empty);
-
-                    BadgeItem b = new BadgeItem { Name = line, Selected = true };
-                    BadgeManager.Add(b);
+                    if (line.EndsWith(BadgeLine))
+                    {
+                        line = line.Replace(BadgeLine, string.Empty);
+                        BadgeManager.Add(new BadgeItem { Name = line, Selected = true });
+                    }
+                    if (line.Contains(BadgeLine2))
+                    {
+                        line = line.Replace(BadgeLine2, string.Empty);
+                        line = line.Replace("badge.", string.Empty);
+                        line = line.Trim();
+                        BadgeManager.Add(new BadgeItem { Name = line, Selected = true });
+                    }
                 }
             }
 

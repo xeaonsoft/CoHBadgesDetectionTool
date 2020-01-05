@@ -46,3 +46,4 @@ C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Bad
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.pdb
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge_Helper.frmHelpCoHFolder.resources
 C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\bin\Debug\JsonImportReplace.json
+C:\CodeEnv\Xeaonsoft\CoH Stuff\CoHBadgesDetectionTool\Badge Helper\obj\Debug\Badge Helper.csprojAssemblyReference.cache

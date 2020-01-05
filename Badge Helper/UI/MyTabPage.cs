@@ -14,8 +14,7 @@ namespace Badge_Helper
         private Label label1;
         private TextBox textBox1;
         private ListBox listBox1;
-
-
+        private TextBox textBox2;
         RawDataItem _rdi;
         public MyTabPage(RawDataItem rdi, TabControl parent)
         {
@@ -35,6 +34,7 @@ namespace Badge_Helper
 
 
             this.textBox1.KeyUp += TextBox1_KeyUp;
+            this.textBox2.KeyUp += TextBox1_KeyUp;
 
 
 
@@ -45,15 +45,16 @@ namespace Badge_Helper
         private void DrawMe()
         {
             string keyWord = textBox1.Text.Trim().ToLowerInvariant();
+            string keyWord2 = textBox2.Text.Trim().ToLowerInvariant();
 
             //var dataList = rdi.Badges.OrderBy(a => a.Group).ThenBy(a => a.Name).ToList();
 
             List<RawBadgeItem> dataList = _rdi.Badges.ToList();
             List<RawBadgeItem> filteredList = dataList.ToList();
             if (!string.IsNullOrEmpty(keyWord))
-            {
                 filteredList = dataList.Where(a => a.Name.Trim().ToLowerInvariant().Contains(keyWord)).ToList();
-            }
+            if (!string.IsNullOrEmpty(keyWord2))
+                filteredList = dataList.Where(a => a.Group.Trim().ToLowerInvariant().Contains(keyWord2)).ToList();
 
             this.listBox1.Items.Clear();
             foreach (RawBadgeItem bi in filteredList)
@@ -84,6 +85,7 @@ namespace Badge_Helper
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // listBox1
@@ -114,11 +116,19 @@ namespace Badge_Helper
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(600, 0);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 0;
+            // 
             // MyTabPage
             // 
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox2);
             this.ResumeLayout(false);
             this.PerformLayout();
 
